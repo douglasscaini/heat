@@ -39,7 +39,7 @@ $ .env.example to .env
 # Rodar as migrations:
 $ yarn prisma migrate dev
 
-# Os banco de dados pode ser acessado com:
+# O banco de dados pode ser acessado com:
 $ yarn prisma studio
 
 # Iniciar o projeto:
