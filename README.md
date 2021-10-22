@@ -19,9 +19,11 @@
 <table>
   <tr>
     <td colspan="1">Web</td>
+    <td colspan="1">Mobile</td>
   </tr>
   <tr>
-    <td><img src="./.github/nlwheat.gif" width=1000px /></td></td>
+    <td><img src="./.github/nlwheat.gif" width="100%" /></td></td>
+    <td><img src="./.github/mobile.gif" width="100%" height="90%" /></td></td>
   </tr>
 </table>
 
