@@ -25,6 +25,9 @@
 > **Stage 4:**
 > Nessa aula criamos um microserviço em Elixir responsável por gerar a nuvem de tags das mensagens enviadas na aplicação desenvolvida nos dias anteriores. Usamos conceitos de concorrência e paralelismo para a contagem de tags, e um processo que executa todos os dias para a geração dessa nuvem de tags. Utilizamos o Phoenix, Ecto, o módulo Task, a lib Quantum e diversos conceitos do Elixir.
 
+> **Stage 5:**
+> Nessa aula, descobrimos juntos os próximos passos para acelerar a carreira em programação.
+
 <br />
 <table>
   <tr>
@@ -96,23 +99,25 @@ $ expo start
 # Configurar Banco de dados:
 $ config/config.exs
 
-# Alguns Comandos do Elixir:
-$ mix ecto.create
+# Comandos:
+$ mix deps.get
 $ mix phx.server
-$ mix ecto.gen.migration create_messages
+$ mix ecto.setup
+$ mix ecto.create
 $ mix ecto.migrate
+$ mix ecto.gen.migration create_messages
 ```
 
 ## :triangular_flag_on_post: Desafio <a name="challenge"></a>
 
->
+> Aprimorar o conhecimento em Node, React, React Native e Elixir.
 
 ## :heavy_check_mark: Tecnologias <a name="technologies"></a>
 
 - [Vite](https://vitejs.dev/)
 - [Expo](https://expo.dev/)
-- [Node](https://nodejs.org/en/)
 - [Elixir](https://elixir-lang.org/)
+- [Node](https://nodejs.org/en/)
 - [Prisma](https://www.prisma.io/)
 - [ReactJS](https://pt-br.reactjs.org/)
 - [Socket.IO](https://socket.io/)
