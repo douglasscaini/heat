@@ -13,7 +13,17 @@
 
 ## :speech_balloon: Sobre <a name="about"></a>
 
-> #
+> **Stage 1:**
+> Nessa aula criamos o backend da aplicação utilizando NodeJS. Nesse projeto utilizamos Typescript, que auxilia no aumento da produtividade em desenvolvimento; utilizamos o Prisma ORM, para trabalhar com banco de dados e Socket.IO para trabalhar comunicação em tempo real.
+
+> **Stage 2:**
+> Nessa aula criamos o front-end web da nossa aplicação utilizando ReactJS. Além disso, criamos nosso projeto utilizando o Vite, uma ferramenta extremamente performática, TypeScript e CSS modules. Construimos toda interface da aplicação do zero com Flexbox e Grid System, além de criar animações utilizando Framer Motion.
+
+> **Stage 3:**
+> Nessa aula criamos o front-end mobile da nossa aplicação utilizando React Native. Além disso, criamos nosso projeto utilizando TypeScript e Expo que proporciona muita produtividade no desenvolvimento. Construimos toda interface da aplicação do zero, e criamos animações utilizando o Moti, AsyncStorage e integração em tempo real com socket.io.
+
+> **Stage 4:**
+> Nessa aula criamos um microserviço em Elixir responsável por gerar a nuvem de tags das mensagens enviadas na aplicação desenvolvida nos dias anteriores. Usamos conceitos de concorrência e paralelismo para a contagem de tags, e um processo que executa todos os dias para a geração dessa nuvem de tags. Utilizamos o Phoenix, Ecto, o módulo Task, a lib Quantum e diversos conceitos do Elixir.
 
 <br />
 <table>
@@ -88,24 +98,25 @@ $ config/config.exs
 
 # Alguns Comandos do Elixir:
 $ mix ecto.create
-
 $ mix phx.server
-
 $ mix ecto.gen.migration create_messages
-
 $ mix ecto.migrate
 ```
 
 ## :triangular_flag_on_post: Desafio <a name="challenge"></a>
 
-> #
+>
 
 ## :heavy_check_mark: Tecnologias <a name="technologies"></a>
 
 - [Vite](https://vitejs.dev/)
 - [Expo](https://expo.dev/)
+- [Node](https://nodejs.org/en/)
+- [Elixir](https://elixir-lang.org/)
 - [Prisma](https://www.prisma.io/)
+- [ReactJS](https://pt-br.reactjs.org/)
 - [Socket.IO](https://socket.io/)
+- [React Native](https://reactnative.dev//)
 
 ---
 
