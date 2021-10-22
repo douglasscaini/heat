@@ -18,7 +18,7 @@
 <br />
 <table>
   <tr>
-    <td colspan="1">Web App</td>
+    <td colspan="1">Web</td>
   </tr>
   <tr>
     <td><img src="./.github/nlwheat.gif" width=1000px /></td></td>
@@ -27,9 +27,9 @@
 
 ## :warning: Instalação <a name="install"></a>
 
-```bash
-👉 Back-end
+👉 **Back-end**
 
+```bash
 # Instalar as dependências necessárias:
 $ yarn
 
@@ -47,8 +47,9 @@ $ yarn dev
 
 ```
 
+👉 **Front-end**
+
 ```bash
-👉 Front-end
 
 # Instalar as dependências necessárias:
 $ yarn
@@ -60,6 +61,23 @@ $ .env.example to .env.local
 $ yarn dev
 ```
 
+👉 **Mobile**
+
+```bash
+
+# Instalar as dependências necessárias:
+$ yarn
+
+# Configurar as variáveis de ambiente:
+$ .env.example to .env
+
+# Logar com sua conta expo:
+$ expo login
+
+# Iniciar o projeto:
+$ expo start
+```
+
 ## :triangular_flag_on_post: Desafio <a name="challenge"></a>
 
 > #
@@ -67,7 +85,9 @@ $ yarn dev
 ## :heavy_check_mark: Tecnologias <a name="technologies"></a>
 
 - [Vite](https://vitejs.dev/)
+- [Expo](https://expo.dev/)
 - [Prisma](https://www.prisma.io/)
+- [Socket.IO](https://socket.io/)
 
 ---
 
