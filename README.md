@@ -80,6 +80,22 @@ $ expo login
 $ expo start
 ```
 
+👉 **Elixir**
+
+```bash
+# Configurar Banco de dados:
+$ config/config.exs
+
+# Alguns Comandos do Elixir:
+$ mix ecto.create
+
+$ mix phx.server
+
+$ mix ecto.gen.migration create_messages
+
+$ mix ecto.migrate
+```
+
 ## :triangular_flag_on_post: Desafio <a name="challenge"></a>
 
 > #
